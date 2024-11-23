@@ -1,0 +1,301 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.blockOne {
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.blockTwo {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+body {
+  background-color: #FFFBEB;
+}
+
+img {
+  width: 330px;
+  height: 350px;
+}
+
+.items {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+
+.filterCategory {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.cartIcon {
+  width: 120px;
+  height: 120px;
+}
+
+.categoryButtonSelected {
+  background-color: #9cd8ce;
+}
+
+.categoryButton:hover {
+  background-color: #b1c5eb;
+}
+
+.categoryButton {
+  cursor: pointer;
+  margin: 7px;
+  padding: 7px;
+  border-radius: 10px;
+  color: #454545;
+  text-shadow: 2px 2px #E3CDC1;
+}
+
+h1 {
+  color: #A7727D;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 37px;
+}
+
+.iconTwo {
+  width: 40px;
+  height: 40px;
+}
+
+button {
+  background-color: #EDDBC7;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  color: #685f52;
+  font-size: 15px;
+}
+
+.quantity {
+  color: #685f52;
+}
+
+p, h1, h2, h3, button {
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: "Montserrat", sans-serif;
+}
+
+.cartTotal {
+  margin-top: 35px;
+  padding: 35px;
+  color: #454545;
+}
+
+.total {
+  text-shadow: 1px 1px #440A67;
+  font-size: larger;
+}
+
+.cartItems {
+  padding: 15px;
+}
+
+.flowerItem {
+  color: #685f52;
+  font-size: larger;
+}
+
+.priceItem {
+  color: #685f52;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+
+@media all and (max-width: 700px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  img {
+    width: 300px;
+    height: 320px;
+  }
+
+
+}
+
+
+@media all and (max-width: 500px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .filterCategory {
+    font-size: 14px;
+  }
+
+  img {
+    width: 230px;
+    height: 250px;
+  }
+
+  .cartIcon {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cartTotal {
+    margin-top: 30px;
+    padding: 30px;
+  }
+  
+  .total {
+    font-size: 18px
+  }
+
+  .cartItems {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .iconTwo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .items {
+    padding: 3px;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+
+  button {
+    margin-bottom: 7px;
+    margin-left: 7px;
+    padding: 7px;
+
+    font-size: 13px;
+  }
+}
+
+
+@media all and (max-width: 400px) {
+  h1 {
+    font-size: 23px;
+  }
+
+  .filterCategory {
+    font-size: 13px;
+    flex-wrap: wrap;
+  }
+
+  img {
+    width: 180px;
+    height: 200px;
+  }
+
+  .cartIcon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .cartTotal {
+    margin-top: 30px;
+    padding: 30px;
+  }
+  
+  .total {
+    font-size: 15px
+  }
+
+  .cartItems {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  .iconTwo {
+    width: 25px;
+    height: 25px;
+  }
+
+  .items {
+    padding: 3px;
+    margin-bottom: 13px;
+    font-size: 13px;
+  }
+
+  button {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .filterCategory {
+    font-size: 11px;
+    flex-wrap: wrap;
+  }
+
+  img {
+    width: 150px;
+    height: 170px;
+  }
+
+  .cartIcon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .cartTotal {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .total {
+    font-size: 13px
+  }
+
+  .cartItems {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  .iconTwo {
+    width: 22px;
+    height: 22px;
+  }
+
+  .items {
+    padding: 3px;
+    margin-bottom: 11px;
+    font-size: 11px;
+  }
+
+  button {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 11px;
+  }
+}
