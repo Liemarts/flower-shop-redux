@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 import dataFlowers from "../../data/dataFlowers";
 import { removeItemFromCart } from "../../redux/cartSlice";
-import iconDelete from './icons8-delete-2.png';
+import iconDelete from './assets/icons8-delete-2.png';
 
 
 

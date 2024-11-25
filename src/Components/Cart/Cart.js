@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 import CartItem from './CartItem';
-import cartIconTwo from './icons8-cart-two.png';
+import cartIconTwo from './assets/icons8-cart-two.png'
 import { getCartItems, getTotalPrice } from '../../redux/cartSlice';
 
 
