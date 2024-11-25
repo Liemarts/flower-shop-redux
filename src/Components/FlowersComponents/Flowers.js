@@ -14,7 +14,7 @@ const Flowers = () => {
             if (selectedCategory === 'ALL')
                 return true;
             return selectedCategory === flower.category})
-        .map((flower, index) => <Flower flower={flower} key={index}/>)}
+        .map((flower, id) => <Flower flower={flower} key={id}/>)}
 
     </div>)
 }

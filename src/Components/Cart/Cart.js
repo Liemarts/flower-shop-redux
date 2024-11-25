@@ -15,8 +15,8 @@ const Cart = () => {
 
         <h3 className='total'>TOTAL: ${totalPrice}</h3>
 
-        {cartItems.map(cartItem => 
-            <CartItem cartItem={cartItem} />
+        {cartItems.map((cartItem, index) => 
+            <CartItem cartItem={cartItem} key={index} />
         )}
 
     </div>)
